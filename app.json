@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Track It",
+    "slug": "track-it",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "trackit",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.personal.trackit",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "CAMERA",
+        "ACTIVITY_RECOGNITION",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
